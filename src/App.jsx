@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
+import Item from './components/Item';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>React starter template</h1>
-      </header>
+      <Item name='Jena' actualDate='01/09/2002'/>
+      <Item name= 'Hercule' actualDate='01/10/2002'/>
     </div>
   );
 }
